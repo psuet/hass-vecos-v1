@@ -1,0 +1,19 @@
+open_locks:
+  description: Open one or more Vecos locks.
+  fields:
+    entry_id:
+      description: The config entry ID for the hub.
+      example: "test-entry"
+    lock_ids:
+      description: Lock IDs to open.
+      example: [1, 2]
+
+close_locks:
+  description: Close one or more Vecos locks.
+  fields:
+    entry_id:
+      description: The config entry ID for the hub.
+      example: "test-entry"
+    lock_ids:
+      description: Lock IDs to close.
+      example: [1, 2]

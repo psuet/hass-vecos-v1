@@ -1,0 +1,12 @@
+{
+  "codeowners": ["@netzac"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/netz-ac/hass-v1-hub",
+  "issue_tracker": "https://github.com/netz-ac/hass-v1-hub/issues",
+  "domain": "vecos_v1_hub",
+  "iot_class": "local_polling",
+  "name": "Vecos V1 Hub",
+  "requirements": [],
+  "version": "1.0.0"
+}
